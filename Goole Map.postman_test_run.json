@@ -1,0 +1,98 @@
+{
+	"id": "dbaef5f6-04d4-4a20-906a-14583e219916",
+	"name": "Goole Map",
+	"timestamp": "2022-03-26T14:46:59.524Z",
+	"collection_id": "19955286-0d1f1fd3-3310-46d5-b485-1a45cb331b1e",
+	"folder_id": 0,
+	"environment_id": "19955286-a7061e6b-0ee2-4a51-80e0-892a83f7aa2a",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e7867d53-dcc1-4151-8aad-10fb1a36afb8",
+			"name": "Add",
+			"url": "http://216.10.245.166/maps/api/place/add/json?key=qaclick123",
+			"time": 104,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"add responce contains this value": true,
+				"scope should contain this value": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"add responce contains this value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"scope should contain this value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				104
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"add responce contains this value": true,
+					"scope should contain this value": true,
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "d964ceb1-bf93-4567-b8d7-b311f60a038c",
+			"name": "delete",
+			"url": "http://216.10.245.166/maps/api/place/delete/json?key=qaclick123",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 201,
+	"collection": {
+		"requests": [
+			{
+				"id": "e7867d53-dcc1-4151-8aad-10fb1a36afb8",
+				"method": "POST"
+			},
+			{
+				"id": "d964ceb1-bf93-4567-b8d7-b311f60a038c",
+				"method": "DELETE"
+			}
+		]
+	}
+}
