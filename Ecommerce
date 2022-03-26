@@ -1,0 +1,266 @@
+{
+	"id": "ed19c7ca-a423-476f-a60c-f27453b111e9",
+	"name": "E commerce",
+	"timestamp": "2022-03-26T14:25:28.942Z",
+	"collection_id": "19955286-96a7506e-fa7a-4546-b096-0a41ccf27997",
+	"folder_id": 0,
+	"environment_id": "19955286-b61f3c7b-3832-4b41-9fa9-0f4a9c65b23a",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a74c2811-0947-4804-9d47-e224d8c41755",
+			"name": "User login",
+			"url": "https://ecommerceservice.herokuapp.com/user/login",
+			"time": 2722,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2722
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "25d7c665-3470-445a-84e7-dfb94f43143e",
+			"name": "Get all users",
+			"url": "https://ecommerceservice.herokuapp.com/user",
+			"time": 1662,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1662
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "64c8a652-7099-47cb-b5a0-e714d1582fc8",
+			"name": "Get Product",
+			"url": "https://ecommerceservice.herokuapp.com/products",
+			"time": 1910,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1910
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a506912e-2ba9-469b-b85f-6341b2526607",
+			"name": "Create Product",
+			"url": "https://ecommerceservice.herokuapp.com/products",
+			"time": 649,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				649
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e2ab1292-0df4-4843-a533-ccb2719955a6",
+			"name": "get product by ID",
+			"url": "https://ecommerceservice.herokuapp.com/products/623f2260723cc50017b3314b",
+			"time": 645,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				645
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9e96ecfc-c2f6-461a-a4d3-a3f566ad0a0e",
+			"name": "order",
+			"url": "https://ecommerceservice.herokuapp.com/orders",
+			"time": 1900,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1900
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e1a49755-439e-4af3-a8d5-9c43e4a071c7",
+			"name": "create Order",
+			"url": "https://ecommerceservice.herokuapp.com/orders",
+			"time": 1062,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1062
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "2d58394a-23f4-4bd0-aefe-a6c6445ceb9e",
+			"name": "get order by ID",
+			"url": "https://ecommerceservice.herokuapp.com/orders",
+			"time": 1898,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1898
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 12448,
+	"collection": {
+		"requests": [
+			{
+				"id": "a74c2811-0947-4804-9d47-e224d8c41755",
+				"method": "POST"
+			},
+			{
+				"id": "25d7c665-3470-445a-84e7-dfb94f43143e",
+				"method": "GET"
+			},
+			{
+				"id": "64c8a652-7099-47cb-b5a0-e714d1582fc8",
+				"method": "GET"
+			},
+			{
+				"id": "a506912e-2ba9-469b-b85f-6341b2526607",
+				"method": "POST"
+			},
+			{
+				"id": "e2ab1292-0df4-4843-a533-ccb2719955a6",
+				"method": "GET"
+			},
+			{
+				"id": "9e96ecfc-c2f6-461a-a4d3-a3f566ad0a0e",
+				"method": "GET"
+			},
+			{
+				"id": "e1a49755-439e-4af3-a8d5-9c43e4a071c7",
+				"method": "POST"
+			},
+			{
+				"id": "2d58394a-23f4-4bd0-aefe-a6c6445ceb9e",
+				"method": "GET"
+			}
+		]
+	}
+}
